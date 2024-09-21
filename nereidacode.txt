@@ -1,0 +1,11 @@
+cd "C:\git\CSSTP"
+git clone "https://github.com/nereidagra/GitHub-Collaboration-Practice.git"
+touch group.txt
+touch nereidacode.txt
+nano group.txt
+git status
+cd "C:\git\GitHub-Collaboration-Practice"
+git add .
+git status
+git commit -m "committing changes to group project folder"
+git push
