@@ -1,0 +1,27 @@
+Last login: Mon Sep 23 16:04:00 on ttys000
+(base) aldaziagreen@Aldazias-MacBook-Air ~ % cd git
+(base) aldaziagreen@Aldazias-MacBook-Air git % git clone https://github.com/nereidagra/GitHub-Collaboration-Practice.git
+Cloning into 'GitHub-Collaboration-Practice'...
+remote: Enumerating objects: 16, done.
+remote: Counting objects: 100% (16/16), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 16 (delta 2), reused 12 (delta 1), pack-reused 0 (from 0)
+Receiving objects: 100% (16/16), done.
+Resolving deltas: 100% (2/2), done.
+(base) aldaziagreen@Aldazias-MacBook-Air git % ls
+Computational-Social-Science-Training-Program
+ComputationalSocialScienceProjects
+GitHub-Collaboration-Practice
+git_challenges
+group_project
+(base) aldaziagreen@Aldazias-MacBook-Air GitHub-Collaboration-Practice % git checkout -b Aldazia_branch
+Switched to a new branch 'Aldazia_branch'
+(base) aldaziagreen@Aldazias-MacBook-Air GitHub-Collaboration-Practice % ls
+README.md	group.txt	nereidacode.txt
+(base) aldaziagreen@Aldazias-MacBook-Air GitHub-Collaboration-Practice % nano group.txt
+                                                                         touch aldaziacode.txt
+                                                                         git add *
+                                                                          git status 
+                                                                           git commit -m "Aldazia Changes" 
+                                                                           git push
+
