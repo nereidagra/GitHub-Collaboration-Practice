@@ -1,0 +1,27 @@
+//a. clone the repository
+git clone https://github.com/nereidagra/GitHub-Collaboration-Practice.git
+
+//b. checkout a new branch
+cd GitHub-Collaboration-Practice
+git checkout -b branch_chuxuan
+git push origin branch_chuxuan
+
+//d. merge the main branch into my branch
+git fetch origin
+git branch
+git merge origin/main
+
+//e. edit the text file group.txt
+nano group.txt
+git add group.txt
+git commit -m "Added Chuxuan's information"
+git push origin branch_chuxuan
+//first pull request
+
+//f. create a new text file
+touch code_chuxuan.txt
+nano code_chuxuan.txt
+git add code_chuxuan.txt
+git commit -m “Added Chuxuan’s commands”
+git push origin branch_chuxuan
+//second pull request
